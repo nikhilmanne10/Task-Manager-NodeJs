@@ -1,11 +1,11 @@
 {
   "name": "task-manager",
   "version": "1.0.0",
-  "main": "src/index.js",  // Make sure to point to the correct entry file inside the src folder
+  "main": "src/index.js", 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "env-cmd -f .env node src/index.js",  // Point to src/index.js for production
-    "dev": "env-cmd -f .env nodemon src/index.js"  // Point to src/index.js for development
+    "start": "env-cmd -f .env node src/index.js",  
+    "dev": "env-cmd -f .env nodemon src/index.js"  
   },
   "keywords": [],
   "author": "",
